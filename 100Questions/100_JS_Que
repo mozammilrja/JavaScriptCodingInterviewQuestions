@@ -140,7 +140,7 @@ console.log(name()); //Error: name is not a function
 //Explaination : Function we are calling but it's not present so it will an error.
 --------------------------------------------
 const result = false || {} || 20 || null;
-console.log(result); //20
+console.log(result); //{}
 //Explaination : OR operator will find first positive value. Null is a falsy value by default. {} is a positive value. It didn't reach till 20 and null.
 --------------------------------------------
 const result = null || false || '';
